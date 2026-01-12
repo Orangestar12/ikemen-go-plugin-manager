@@ -6,6 +6,8 @@ A simple plugin manager for IKEMEN-Go, intended to be used with [V-IKEMEN](https
 
 ## How to use?
 
+**Important:** Due to how Python's `configparser` module works, this will remove all comments in your `config.ini` file. The app is designed to make a backup of your config before saving, but you may want to keep the original copy around somewhere just to be safe.
+
 If you have Python installed, download the script and put it in your V-IKEMEN folder.
 
 Otherwise, if you're on Windows, grab the [latest release](https://github.com/Orangestar12/ikemen-go-plugin-manager/releases) and extract the contents of the zip directly into your V-IKEMEN folder.
